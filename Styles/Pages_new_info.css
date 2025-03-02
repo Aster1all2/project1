@@ -1,0 +1,120 @@
+.info_detail_main_text {
+    width: 49%;
+
+    
+}
+
+.info_detail_titles {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 89.6px;
+    letter-spacing: 0%;
+    margin-bottom: 63px;
+    margin-top: 22px;
+}
+
+.info_detail_main_text_announce {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0%;
+    color: #841844;
+
+}
+
+.info_detail_main_data {
+    margin-bottom: 40px;
+}
+
+.info_detail_main_text_content {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.info_detail_data {
+    margin-bottom: 40px;
+}
+
+.info_detail_main_image {
+    width: 49%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.info_detail_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info_detail_main_text_button {
+    border: 2px solid #9B407A;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 214px;
+    height: 54px;
+    color: #9B407A;
+    text-align: center;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+a {
+    color: #9B407A;;
+}
+.info_detail_main_text_button:hover {
+    background-color: #9B407A;
+    color: #ffffff;
+    .detail_info_button_icon {
+        background-image: url(../Image/Arrow\ 2.svg);
+    }
+    a {
+        color:#ffffff
+    }
+}
+
+
+
+.detail_info_button_icon {
+    display:inline-block;
+    background-image: url(../Image/Arrow\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(180deg);
+    width: 20px;
+    height: 10px;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+
+.header-line {
+    background-color: #6C6E7B;
+    height: 1px;
+    margin-top: 43px;
+    margin-bottom: 73px;
+}
+
+.nav_panel {
+    min-width: 280px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+}
+
+.nav_panel a {
+    color: black;
+}
+
