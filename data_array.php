@@ -2,7 +2,7 @@
 include 'connectBD.php';
 
 
-$sql = "SELECT * FROM news";
+$sql = "SELECT * FROM `news` ORDER BY date DESC";
 if($result = $contention->query($sql)){
 
     $rowsCount = $result->num_rows; // количество полученных строк
